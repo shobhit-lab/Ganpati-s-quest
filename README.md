@@ -79,7 +79,7 @@ Rotate the sacred stepping stones to create an **unbroken glowing pathway across
 - 📱 Mobile-friendly controls
 - 🖥️ Desktop support
 - 🌊 Puzzle-based Visarjan finale
-- 🏅 Leaderboard system
+- 🏅 Live leaderboard
 - 🔊 Interactive audio experience
 
 ---
@@ -91,10 +91,8 @@ Ganpati-s-quest/
 │
 ├── Code/
 │   ├── Ganpatis_Journey_NIAT.html
-│   ├── Ganpatis_Journey_NIAT_Leaderboard.html
 │   ├── leaderboard.css
 │   ├── leaderboard.js
-│   ├── leaderboard_setup.sql
 │   └── visarjan_climax.mp4
 │
 └── README.md
@@ -104,11 +102,9 @@ Ganpati-s-quest/
 
 | File | Purpose |
 |---|---|
-| `Ganpatis_Journey_NIAT.html` | Main game |
-| `Ganpatis_Journey_NIAT_Leaderboard.html` | Leaderboard interface |
-| `leaderboard.js` | Leaderboard functionality |
+| `Ganpatis_Journey_NIAT.html` | Main game and gameplay logic |
 | `leaderboard.css` | Leaderboard styling |
-| `leaderboard_setup.sql` | Leaderboard database setup |
+| `leaderboard.js` | Leaderboard functionality |
 | `visarjan_climax.mp4` | Visarjan finale video |
 
 ---
@@ -118,7 +114,6 @@ Ganpati-s-quest/
 - **HTML5**
 - **CSS3**
 - **JavaScript**
-- **SQL**
 - **AI-assisted / Vibe Coding**
 - **Vercel**
 
